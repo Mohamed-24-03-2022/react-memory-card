@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: min(30px, 5%);
   background-color: #333;
   color: #eee;
   box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.6);
@@ -24,7 +24,6 @@ body {
 .navBar h1 {
   font-size: 3rem;
   cursor: pointer;
-  transition: all 400ms ease-in-out;
 }
 /* _______________________________________________________ */
 .mainContent {
@@ -32,28 +31,31 @@ body {
   grid-template-rows: 1fr 6fr;
   justify-items: center;
   padding: 10px 10px 40px;
-  box-shadow: 0px -11px 14px -5px rgba(0,0,0,0.47) inset;
+  box-shadow: 0px -11px 14px -5px rgba(0, 0, 0, 0.47) inset;
 }
-.firstRow{
-  width: 600px;
+.firstRow {
+  width: min(600px, 80%);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 .firstRow div {
   text-align: center;
   color: #333;
   font-weight: bold;
-  border: 1px solid #3333332e ;
+  border: 1px solid #3333332e;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 15px;
   width: 220px;
   padding: 10px;
 }
 /* _______________________________________________________ */
-.secondRow{
+.secondRow {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  justify-items: center;
+  width: min(700px, 60%);
   gap: 20px;
 }
 .secondRow div {
@@ -71,7 +73,7 @@ body {
 .secondRow div:hover {
   transform: scale(1.08);
   transition: 250ms;
-  cursor:pointer;
+  cursor: pointer;
   user-select: none;
 }
 .secondRow div:active {
@@ -81,7 +83,7 @@ body {
   width: 70%;
   pointer-events: none;
 }
-.secondRow div p{
+.secondRow div p {
   pointer-events: none;
 }
 
@@ -92,14 +94,34 @@ body {
   align-items: center;
   background-color: #333;
   color: #eee;
-  /* box-shadow: inset #33333362 5px 1px 20px; */
-  padding: 15px;
+  padding: min(4%, 15px);
 }
 a {
-  decoration: none;
+  text-decoration: none;
   color: inherit;
   border-radius: 10px;
 }
 a svg {
-  padding: 0 5px;
+  padding: 0 10px;
+}
+
+/* _________________________________________________ */
+
+@media only screen and (max-width: 768px) {
+  .navBar h1 {
+    font-size: 2rem;
+  }
+  .mainContent {
+    grid-template-rows: 150px 1fr;
+  }
+  .firstRow {
+    /* height: 50%; */
+  }
+  .secondRow {
+    width: 100%;
+  }
+  .secondRow div {
+      width: 120px;
+      height: 145px;
+  }
 }
