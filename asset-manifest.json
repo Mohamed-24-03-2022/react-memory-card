@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-memory-card/static/css/main.0c8472ff.css",
+    "main.js": "/react-memory-card/static/js/main.e3d09297.js",
+    "static/media/pineapple.png": "/react-memory-card/static/media/pineapple.01dd761917f4806e9d67.png",
+    "static/media/blueberries.png": "/react-memory-card/static/media/blueberries.5c1b9a267c337fda88f5.png",
+    "static/media/bananas.png": "/react-memory-card/static/media/bananas.e2208281acda2b4e5edb.png",
+    "static/media/grape.png": "/react-memory-card/static/media/grape.2fa91d68ecc6ccdc6162.png",
+    "static/media/avocado.png": "/react-memory-card/static/media/avocado.af910b1d0ffe8324c8b8.png",
+    "static/media/strawberry.png": "/react-memory-card/static/media/strawberry.8ec7fc68ff9f77599d41.png",
+    "static/media/watermelon.png": "/react-memory-card/static/media/watermelon.df671e3b04bec8a86176.png",
+    "static/media/cherries.png": "/react-memory-card/static/media/cherries.d225997ad2ce0a33fc75.png",
+    "static/media/peach.png": "/react-memory-card/static/media/peach.44d3e717c2a3f288e3b6.png",
+    "static/media/lemon.png": "/react-memory-card/static/media/lemon.becd7441124ffdb18903.png",
+    "static/media/orange.png": "/react-memory-card/static/media/orange.13091687dadc1ad2d68a.png",
+    "static/media/apple.png": "/react-memory-card/static/media/apple.3aed0776e9335292e633.png",
+    "index.html": "/react-memory-card/index.html",
+    "main.0c8472ff.css.map": "/react-memory-card/static/css/main.0c8472ff.css.map",
+    "main.e3d09297.js.map": "/react-memory-card/static/js/main.e3d09297.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c8472ff.css",
+    "static/js/main.e3d09297.js"
+  ]
+}
