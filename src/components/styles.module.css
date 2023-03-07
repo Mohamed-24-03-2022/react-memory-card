@@ -31,7 +31,8 @@ body {
   display: grid;
   grid-template-rows: 1fr 6fr;
   justify-items: center;
-  padding: 50px;
+  padding: 10px 10px 40px;
+  box-shadow: 0px -11px 14px -5px rgba(0,0,0,0.47) inset;
 }
 .firstRow{
   width: 600px;
@@ -41,7 +42,10 @@ body {
 }
 .firstRow div {
   text-align: center;
-  border: 1px solid #333 ;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid #3333332e ;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 15px;
   width: 220px;
   padding: 10px;
@@ -50,7 +54,6 @@ body {
 .secondRow{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(4, 1fr); */
   gap: 20px;
 }
 .secondRow div {
@@ -59,16 +62,20 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
-  width: 180px;
-  height: 220px;
+  width: 150px;
+  height: 180px;
   padding: 10px;
-  border: 1px solid #333;
-  user-select: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 10px;
+  border-radius: 15px;
 }
 .secondRow div:hover {
   transform: scale(1.08);
-  transition: 200ms;
+  transition: 250ms;
   cursor:pointer;
+  user-select: none;
+}
+.secondRow div:active {
+  transform: scale(0.95);
 }
 .secondRow div img {
   width: 70%;
@@ -85,7 +92,7 @@ body {
   align-items: center;
   background-color: #333;
   color: #eee;
-  box-shadow: inset #33333362 5px 1px 20px;
+  /* box-shadow: inset #33333362 5px 1px 20px; */
   padding: 15px;
 }
 a {
