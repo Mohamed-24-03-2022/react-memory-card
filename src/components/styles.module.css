@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #cccccc;
+  height: 100%;
+}
+/* _______________________________________________________ */
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #333;
+  color: #eee;
+  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.6);
+}
+.navBar h1 {
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+/* _______________________________________________________ */
+.mainContent {
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+  justify-items: center;
+  padding: 50px;
+}
+.firstRow{
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.firstRow div {
+  text-align: center;
+  border: 1px solid #333 ;
+  border-radius: 15px;
+  width: 220px;
+  padding: 10px;
+}
+/* _______________________________________________________ */
+.secondRow{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
+  gap: 20px;
+}
+.secondRow div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 180px;
+  height: 220px;
+  padding: 10px;
+  border: 1px solid #333;
+  user-select: none;
+}
+.secondRow div:hover {
+  transform: scale(1.08);
+  transition: 200ms;
+  cursor:pointer;
+}
+.secondRow div img {
+  width: 70%;
+  pointer-events: none;
+}
+.secondRow div p{
+  pointer-events: none;
+}
+
+/* _______________________________________________________ */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #eee;
+  box-shadow: inset #33333362 5px 1px 20px;
+  padding: 15px;
+}
+a {
+  decoration: none;
+  color: inherit;
+  border-radius: 10px;
+}
+a svg {
+  padding: 0 5px;
+}
