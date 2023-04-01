@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-memory-card/static/css/main.aa65af66.css",
-    "main.js": "/react-memory-card/static/js/main.e3d09297.js",
+    "main.css": "/react-memory-card/static/css/main.f3ebc82c.css",
+    "main.js": "/react-memory-card/static/js/main.aa044645.js",
     "static/media/pineapple.png": "/react-memory-card/static/media/pineapple.01dd761917f4806e9d67.png",
     "static/media/blueberries.png": "/react-memory-card/static/media/blueberries.5c1b9a267c337fda88f5.png",
     "static/media/bananas.png": "/react-memory-card/static/media/bananas.e2208281acda2b4e5edb.png",
@@ -15,11 +15,11 @@
     "static/media/orange.png": "/react-memory-card/static/media/orange.13091687dadc1ad2d68a.png",
     "static/media/apple.png": "/react-memory-card/static/media/apple.3aed0776e9335292e633.png",
     "index.html": "/react-memory-card/index.html",
-    "main.aa65af66.css.map": "/react-memory-card/static/css/main.aa65af66.css.map",
-    "main.e3d09297.js.map": "/react-memory-card/static/js/main.e3d09297.js.map"
+    "main.f3ebc82c.css.map": "/react-memory-card/static/css/main.f3ebc82c.css.map",
+    "main.aa044645.js.map": "/react-memory-card/static/js/main.aa044645.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa65af66.css",
-    "static/js/main.e3d09297.js"
+    "static/css/main.f3ebc82c.css",
+    "static/js/main.aa044645.js"
   ]
 }
